@@ -26,4 +26,6 @@ Launch:
 
 `<word>` it's any symbol(s) or number. This option mean last message.
 
-For instance, if you launch so `./msg1Client 1` or `./msg1Client lastmsg` client send message with pid = -1 and it'll be last message, server finish work.
+If you launch so `./msg1Client`, client send and receive regular message. 
+
+If you launch so `./msg1Client 1` or `./msg1Client lastmsg` client send message with pid = -1 and it'll be last message, server finish work.
