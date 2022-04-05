@@ -24,6 +24,6 @@ Launch:
     ./msg1Server
     ./msg1Client <word>
 
-`<word> it's any symbol(s) or number. This option mean last message.
+"<word>" it's any symbol(s) or number. This option mean last message.
 
 For instance, if you launch so `./msg1Client 1` or `./msg1Client lastmsg` client send message with pid = -1 and it'll be last message, server finish work.
